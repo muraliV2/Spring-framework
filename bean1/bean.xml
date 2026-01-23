@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="emp1" class="com.hibernate.dao.employee" primary="true">
+        <property name="empId" value="201"/>
+        <property name="empName" value="Murali"/>
+        <property name="designation" value="Java Developer"/>
+        <property name="department" value="IT"/>
+        <property name="salary" value="3.5 LPA"/>
+    </bean>
+
+    <bean id="emp2" class="com.hibernate.dao.employee">
+        <property name="empId" value="202"/>
+        <property name="empName" value="Azhai"/>
+        <property name="designation" value="Software Engineer"/>
+        <property name="department" value="Development"/>
+        <property name="salary" value="4 LPA"/>
+    </bean>
+    
+     <bean id="emp3" class="com.hibernate.dao.employee">
+        <property name="empId" value="203"/>
+        <property name="empName" value="surya"/>
+        <property name="designation" value="Core Engineer"/>
+        <property name="department" value="Designing"/>
+        <property name="salary" value="12 LPA"/>
+    </bean>
+    
+     <bean id="emp4" class="com.hibernate.dao.employee">
+        <property name="empId" value="204"/>
+        <property name="empName" value="bruno"/>
+        <property name="designation" value="game developer"/>
+        <property name="department" value="Development"/>
+        <property name="salary" value="10LPA"/>
+    </bean>
+    
+     <bean id="emp5" class="com.hibernate.dao.employee">
+        <property name="empId" value="205"/>
+        <property name="empName" value="saka"/>
+        <property name="designation" value="football player"/>
+        <property name="department" value="arsenal"/>
+        <property name="salary" value="10 LPA"/>
+    </bean>
+
+</beans>
