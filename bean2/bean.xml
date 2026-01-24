@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu1" class="com.spring.dao.student" primary="true">
+        <property name="studentId" value="101"/>
+        <property name="studentName" value="Murali"/>
+        <property name="course" value="Full Stack Java"/>
+        <property name="department" value="IT"/>
+        <property name="age" value="22"/>
+        <property name="gender" value="Male"/>
+    </bean>
+
+    <bean id="stu2" class="com.spring.dao.student">
+        <property name="studentId" value="102"/>
+        <property name="studentName" value="prathish"/>
+        <property name="course" value="Python"/>
+        <property name="department" value="CSE"/>
+        <property name="age" value="21"/>
+        <property name="gender" value="male"/>
+    </bean>
+    
+    <bean id="stu3" class="com.spring.dao.student">
+        <property name="studentId" value="103"/>
+        <property name="studentName" value="aravinth"/>
+        <property name="course" value="aws,azure"/>
+        <property name="department" value="ECE"/>
+        <property name="age" value="21"/>
+        <property name="gender" value="male"/>
+    </bean>
+    
+    
+    
+    
+
+</beans>
