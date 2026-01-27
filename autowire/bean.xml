@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="engine" class="com.hibernate.dao.Engine">
+        <property name="engineid" value="1"/>
+        <property name="capacity" value="2000cc"/>
+    </bean>
+
+    <bean id="car1" class="com.hibernate.dao.Car" autowire="byName">
+        <property name="carid" value="101"/>
+        <property name="name" value="BMW"/>
+        <property name="model" value="X5"/>
+        <property name="colour" value="Black"/>
+    </bean>
+
+    <bean id="car2" class="com.hibernate.dao.Car" autowire="byName">
+        <property name="carid" value="102"/>
+        <property name="name" value="Audi"/>
+        <property name="model" value="A6"/>
+        <property name="colour" value="White"/>
+    </bean>
+
+</beans>
