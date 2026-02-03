@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+       
+       
+    <bean id="school1" class="com.jspiders.dao.school">
+    <property name="name" value="tvt school"/>
+    <property name="location" value="chennai"/>
+    </bean>
+       
+       
+       <bean id="school2" class="com.jspiders.dao.school">
+       <property name="name" value="dmd school"/>
+       <property name="location" value="tamilnadu"/>
+       
+       </bean>
+       
+       
+       <bean id="student1" class="com.jspiders.dao.student" autowire="byType">
+       <property name="Studentid" value="01"/>
+       <property name="name" value="prathish"/>
+       <property name="gender" value="male"/>
+       <property name="scho" ref="school1"/>
+
+       </bean>
+       
+       
+       <bean id="student2" class="com.jspiders.dao.student" autowire="byType">
+       <property name="Studentid" value="02"/>
+       <property name="name" value="murali"/>
+       <property name="gender" value="male"/>
+       <property name="scho" ref="school2"/>
+       </bean>
+       
+       
+       
+       </beans>
+       
+       
+       
+       
+       
+      
+        
+       
