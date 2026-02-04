@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import lombok.Data;
 
 @Data
-
 public class student 
 {
 private int Studentid;
