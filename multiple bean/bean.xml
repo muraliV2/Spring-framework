@@ -9,7 +9,6 @@
 	<property name="model" value="punch"></property>
 	<property name="colour" value="white"></property>
 	<property name="price" value="8lacks"></property>
-	
 	</bean>
 	
 	<bean id="car2" class="com.hibernate.bean.car">
