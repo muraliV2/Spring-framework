@@ -17,5 +17,4 @@
     <property name="colour" value="black"/>
     <property name="price" value="10lacks"/>
 </bean>
-
 </beans>
