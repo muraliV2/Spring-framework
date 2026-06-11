@@ -4,7 +4,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.hibernate.bean.car;
 public class App {
     public static void main(String[] args) {
-
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("META-INF/bean.xml");
 
