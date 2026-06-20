@@ -1,6 +1,5 @@
 package com.jspiders.dao;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import lombok.Data;
 
 @Data
