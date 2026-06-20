@@ -1,7 +1,6 @@
 package com.jspiders.dao;
 
 import lombok.Data;
-
 @Data
 public class school 
 {
