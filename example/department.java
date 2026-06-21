@@ -3,7 +3,6 @@ import lombok.Data;
 
 @Data
 public class Department {
-
     private int deptNo;
     private String location;
     private String deptName;
