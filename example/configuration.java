@@ -1,5 +1,4 @@
 package com.jspiders.javaBasedConfig.configuration;
-
 import com.jspiders.javaBasedConfig.beans.Department;
 import com.jspiders.javaBasedConfig.beans.Employee;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
