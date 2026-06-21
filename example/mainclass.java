@@ -1,5 +1,4 @@
 package com.jspiders;
-
 import com.jspiders.javaBasedConfig.beans.Employee;
 import com.jspiders.javaBasedConfig.configuration.JavaConfiguration;
 import org.springframework.context.ApplicationContext;
