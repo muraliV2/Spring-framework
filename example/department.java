@@ -1,5 +1,4 @@
 package com.jspiders.javaBasedConfig.beans;
-
 import lombok.Data;
 
 @Data
