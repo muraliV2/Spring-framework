@@ -10,7 +10,6 @@
     <property name="name" value="tvt school"/>
     <property name="location" value="chennai"/>
     </bean>
-       
        <bean id="school2" class="com.jspiders.dao.school">
        <property name="name" value="dmd school"/>
        <property name="location" value="tamilnadu"/>
