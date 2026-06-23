@@ -21,7 +21,6 @@
        <property name="name" value="prathish"/>
        <property name="gender" value="male"/>
        <property name="scho" ref="school1"/>
-
        </bean>
        
        
