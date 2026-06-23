@@ -6,7 +6,6 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
        
        
-       
     <bean id="school1" class="com.jspiders.dao.school">
     <property name="name" value="tvt school"/>
     <property name="location" value="chennai"/>
