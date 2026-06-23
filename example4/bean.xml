@@ -30,8 +30,7 @@
        <property name="name" value="murali"/>
        <property name="gender" value="male"/>
        <property name="scho" ref="school2"/>
-       </bean>
-              
+       </bean>              
        </beans>
        
        
