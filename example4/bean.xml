@@ -16,7 +16,7 @@
        </bean>
        
        
-       <bean id="student1" class="com.jspiders.dao.student" autowire="byType">
+       <bean id="students1" class="com.jspiders.dao.student" autowire="byType">
        <property name="Studentid" value="01"/>
        <property name="name" value="prathish"/>
        <property name="gender" value="male"/>
