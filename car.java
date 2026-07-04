@@ -1,7 +1,6 @@
 package com.hibernate.bean;
 
 import lombok.Data;
-
 @Data
 public class car 
 {
