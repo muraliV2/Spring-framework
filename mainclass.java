@@ -5,7 +5,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.hibernate.bean.car;
 
-
 public class App {
     public static void main(String[] args) 
     {
