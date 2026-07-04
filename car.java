@@ -8,7 +8,6 @@ private String brand;
 private String model;
 private String colour;
 private String price;
-
 public car()
 {
 System.out.println("object created");	
