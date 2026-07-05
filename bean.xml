@@ -9,5 +9,4 @@
 	<property name="colour" value="white"></property>
 	<property name="price" value="8lacks"></property>
 	</bean>
-
 </beans>
