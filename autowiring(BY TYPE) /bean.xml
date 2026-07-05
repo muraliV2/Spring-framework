@@ -14,7 +14,6 @@
         <property name="model" value="X5"/>
         <property name="colour" value="Black"/>
     </bean>
-
     <bean id="car2" class="com.spring.dao.car" autowire="byType">
         <property name="carid" value="102"/>
         <property name="name" value="Audi"/>
