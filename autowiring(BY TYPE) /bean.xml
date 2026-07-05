@@ -8,7 +8,6 @@
         <property name="engineid" value="1"/>
         <property name="capacity" value="2000cc"/>
     </bean>
-
     <bean id="car1" class="com.spring.dao.car" autowire="byType">
         <property name="carid" value="101"/>
         <property name="name" value="BMW"/>
