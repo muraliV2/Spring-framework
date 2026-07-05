@@ -5,7 +5,6 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
     <bean id="engine" class="com.spring.dao.engine1">
         <property name="engineid" value="1"/>
         <property name="capacity" value="2000cc"/>
