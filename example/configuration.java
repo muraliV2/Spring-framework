@@ -13,7 +13,7 @@ public class JavaConfiguration {
     dept.setDeptNo(101);
     dept.setDeptName("IT");
     dept.setLocation("Chennai");
-        return dept;
+    return dept;
     }
 
     @Bean(name = "employee1")
