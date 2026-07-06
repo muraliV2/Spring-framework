@@ -7,7 +7,6 @@ public class App {
     {
       ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/bean.xml");
      car bean = context.getBean(car.class);
-     System.out.println(bean);
-      
+     System.out.println(bean);      
     }
 }
