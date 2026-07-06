@@ -12,7 +12,7 @@ public class JavaConfiguration {
     Department dept = new Department();
     dept.setDeptNo(101);
     dept.setDeptName("IT");
-        dept.setLocation("Chennai");
+    dept.setLocation("Chennai");
         return dept;
     }
 
