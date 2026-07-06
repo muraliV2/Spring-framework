@@ -11,7 +11,7 @@ public class JavaConfiguration {
     public Department department() {
     Department dept = new Department();
     dept.setDeptNo(101);
-        dept.setDeptName("IT");
+    dept.setDeptName("IT");
         dept.setLocation("Chennai");
         return dept;
     }
