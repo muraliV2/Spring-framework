@@ -3,7 +3,6 @@ import com.jspiders.javaBasedConfig.beans.Department;
 import com.jspiders.javaBasedConfig.beans.Employee;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.*;
-
 @Configuration
 @ComponentScan (basePackages = "com.jspiders.javaBasedConfig")
 @PropertySource("classpath:META-INF/config.properties")
