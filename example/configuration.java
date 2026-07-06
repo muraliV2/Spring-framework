@@ -10,7 +10,7 @@ public class JavaConfiguration {
     @Bean
     public Department department() {
     Department dept = new Department();
-        dept.setDeptNo(101);
+    dept.setDeptNo(101);
         dept.setDeptName("IT");
         dept.setLocation("Chennai");
         return dept;
