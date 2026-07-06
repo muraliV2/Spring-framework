@@ -29,7 +29,7 @@ public class JavaConfiguration {
 
     @Bean (name = "employee2")
     public Employee getObject2(Department department){
-        Employee employee = new Employee(department);
+    Employee employee = new Employee(department);
         employee.setEmployeeName("ganesh");
         employee.setEmployeeId(13);
         employee.setEmail("ganesh@gmail.com");
