@@ -7,7 +7,6 @@ import org.springframework.context.annotation.*;
 @ComponentScan (basePackages = "com.jspiders.javaBasedConfig")
 @PropertySource("classpath:META-INF/config.properties")
 
-
 public class JavaConfiguration {
     @Bean
     public Department department() {
